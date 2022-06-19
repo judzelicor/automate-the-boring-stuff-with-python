@@ -55,6 +55,10 @@ spam # variable
 
 10. Why does the expression `"I have eaten " + 99 + " burritos."` cause an error? How can you fix it?
 	- The error is due to the fact that the addition of a string to an integer is ungrammatical in Python. To fix this, one must use the `str()` function to obtain the string form of the integer `99` before using string concatenation can be done. We cannot use the `int()` or `float()` functions to convert the string `"I have eaten "` and `" burritos."` as they do not have an equivalent integer or floating-point number form.
+	```python
+	>>> "I have eaten " + str(99) + " burritos."
+	"I have eaten 99 burritos."
+	```
 
 **BONUS**
 - The `round()` function is another built-in Python function that accepts an integer value and a precision parameter.
