@@ -16,6 +16,7 @@ spam # variable
 ```
 
 3. Name the first three common data types.
+
 | Data type | Example    |
 | ----------| ---------- |
 | Integer   | `21`, `2022`    | 
