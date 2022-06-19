@@ -92,7 +92,7 @@ IndentationError: unexpected indent
 | Strings   | "Hello, World!", "2022" | 
 - Python has other built-in data types such as `lists`, `tuple`, `dict`, `set`, `bool`, `functions` and `NoneType` among others.
 
-#### Variables
+### Variables
 - A variable is a container inside a computer's memory that is associated with a symbolic name or an identifier.
 - It can store any single value. So a variable can either contain a `string`, `int`, `tuple`, `dict`, and `NoneType` among others.
 - A variable is initialized the moment a value has been stored in it. One can store values into a variable using an assignment statement which consists of an `identifier`, the `=` symbol, and the value to be stored. In the example below, we have an identifier, `anime` followed by the `=` symbol which instructs Python to store the string of `"Magic Kaito 1412"` into the variable.
